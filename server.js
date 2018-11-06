@@ -29,8 +29,8 @@ app.get("/", function(req, res) {
   });
   
   // Displays all characters
-  app.get("/api/characters", function(req, res) {
-    return res.json(characters);
+  app.get("/api/tables", function(req, res) {
+    return res.json(name);
   });
 
   app.listen(PORT, function() {
