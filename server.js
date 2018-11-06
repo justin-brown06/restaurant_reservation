@@ -30,7 +30,7 @@ app.get("/", function(req, res) {
   
   // Displays all characters
   app.get("/api/tables", function(req, res) {
-    return res.json(name);
+    return res.json(req);
   });
 
   app.listen(PORT, function() {
