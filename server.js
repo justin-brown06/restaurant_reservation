@@ -24,7 +24,7 @@ app.get("/", function(req, res) {
     res.sendFile(path.join(__dirname, "add.html"));
   });
   
-  app.get("/tables", function(req, res) {
+  app.get("/api/tables", function(req, res) {
     res.sendFile(path.join(__dirname, "view.html"));
   });
   
