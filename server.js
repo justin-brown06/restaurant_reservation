@@ -16,7 +16,7 @@ app.use(express.json());
 // =============================================================
 
 // Basic route that sends the user first to the AJAX Page
-app.get("/Users/The%20Brown's%20Spectre/Desktop/UofA/AZCHA201809FSF4-FT/13-express/01-Activities/16-HotRestaurant/index.html", function(req, res) {
+app.get("/", function(req, res) {
     res.sendFile(path.join(__dirname, "index.html"));
   });
   
